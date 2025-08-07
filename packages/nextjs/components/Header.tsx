@@ -31,21 +31,21 @@ export const menuLinks: HeaderMenuLink[] = [
     href: "/transfers",
     icon: <ArrowPathIcon className="h-4 w-4" />,
   },
-  {
-    label: "IPFS Upload",
-    href: "/ipfsUpload",
-    icon: <ArrowUpTrayIcon className="h-4 w-4" />,
-  },
-  {
-    label: "IPFS Download",
-    href: "/ipfsDownload",
-    icon: <ArrowDownTrayIcon className="h-4 w-4" />,
-  },
-  {
-    label: "Debug Contracts",
-    href: "/debug",
-    icon: <BugAntIcon className="h-4 w-4" />,
-  },
+  // {
+  //   label: "IPFS Upload",
+  //   href: "/ipfsUpload",
+  //   icon: <ArrowUpTrayIcon className="h-4 w-4" />,
+  // },
+  // {
+  //   label: "IPFS Download",
+  //   href: "/ipfsDownload",
+  //   icon: <ArrowDownTrayIcon className="h-4 w-4" />,
+  // },
+  // {
+  //   label: "Debug Contracts",
+  //   href: "/debug",
+  //   icon: <BugAntIcon className="h-4 w-4" />,
+  // },
 ];
 
 export const HeaderMenuLinks = () => {
@@ -104,11 +104,11 @@ export const Header = () => {
         </details>
         <Link href="/" passHref className="hidden lg:flex items-center gap-2 ml-4 mr-6 shrink-0">
           <div className="flex relative w-10 h-10">
-            <Image alt="SE2 logo" className="cursor-pointer" fill src="/logo.svg" />
+            <Image alt="enefetito logo" className="cursor-pointer" fill src="/logo-enefetito.jpg" />
           </div>
           <div className="flex flex-col">
-            <span className="font-bold leading-tight">SRE Challenges</span>
-            <span className="text-xs">Simple NFT Example</span>
+            <span className="font-bold leading-tight">enefetito</span>
+            <span className="text-xs">The Ultimate NFT Marketplace on Base Network</span>
           </div>
         </Link>
         <ul className="hidden lg:flex lg:flex-nowrap menu menu-horizontal px-1 gap-2">

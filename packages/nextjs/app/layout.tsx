@@ -11,8 +11,8 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata = getMetadata({
-  title: "Simple NFT Example | SpeedRunEthereum",
-  description: "Built with 🏗 Scaffold-ETH 2",
+  title: "enefetito | NFT Marketplace",
+  description: "The Ultimate NFT Marketplace on Base Network",
 });
 
 const ScaffoldEthApp = ({ children }: { children: React.ReactNode }) => {
